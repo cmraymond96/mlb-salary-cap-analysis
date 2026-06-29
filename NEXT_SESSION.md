@@ -4,3 +4,10 @@ The headline finding to build on: the pressure is lopsided ~3:1. Floor teams nee
 Pick up here — Section 2 (World Series History): pull 20 years of champions' payrolls. This is where the second data source comes in (Baseball Reference via pybaseball, or another Spotrac pull) — multi-source work is a deliberate portfolio signal. Question to answer: do champions cluster in a payroll band, and where does that band sit relative to the proposed cap/floor?
 Small cleanups when I'm fresh: (1) tighten the "three teams over $40M" wording in the Section 1 takeaway to match the actual table; (2) optional chart polish — vertical annotation marking the cap/floor thresholds, drop the redundant color note from the title.
 First action back: git pull origin main before touching anything (I may be on the PC), confirm the baseball-analytics kernel is selected, run all cells top-to-bottom to confirm Section 1 still executes clean, then start Section 2.
+
+CS3.2 — Where I left off (pushed June 29)
+Done: Built the Section 2 scatter — World Series champions and contenders, 2005–2025, opening-day payroll, with the proposed 2027 cap/floor as reference lines. Legend split into two scatter calls so champion/contender colors are labeled. Finding: almost no team clears the cap; many (champions included) fall below the floor — the same asymmetry as Section 1, but shown through outcomes.
+
+Next — Strategy B (within-season ranking): nominal dollars can't separate "spent little" from "2005 dollars were small." Fix = rank each champion's payroll among that year's 30 teams (or express as a ratio to that season's league average). Tests my own hypothesis — were champions usually top-N spenders for their era? Watch for exceptions (2005 CHW, 2015 KCR, 2021 ATL won cheap) — the exceptions are the story.
+
+Data still needed: each season's full 30-team payrolls, OR each year's league-average payroll, 2005–2025. Source from thebaseballcube (same as the champion pull). Note: cap/floor lines DROP OUT of the ranking chart — a rank has no dollar value, so the lines can't be placed. Ranking is a separate exhibit, not an edit to this one.
