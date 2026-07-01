@@ -11,3 +11,9 @@ Done: Built the Section 2 scatter — World Series champions and contenders, 200
 Next — Strategy B (within-season ranking): nominal dollars can't separate "spent little" from "2005 dollars were small." Fix = rank each champion's payroll among that year's 30 teams (or express as a ratio to that season's league average). Tests my own hypothesis — were champions usually top-N spenders for their era? Watch for exceptions (2005 CHW, 2015 KCR, 2021 ATL won cheap) — the exceptions are the story.
 
 Data still needed: each season's full 30-team payrolls, OR each year's league-average payroll, 2005–2025. Source from thebaseballcube (same as the champion pull). Note: cap/floor lines DROP OUT of the ranking chart — a rank has no dollar value, so the lines can't be placed. Ranking is a separate exhibit, not an edit to this one.
+
+
+CS3.2 Strategy B — data done, one fix pending:
+Ratio math confirmed correct (2005 CHW = 1.03, 2009 NYY = 2.28, 2025 LAD = 1.96).
+BUG: contender rows show NaN — 'league-total-payroll' wasn't included in the contenders column selection. Fix: add it to that [[...]] list, re-run, confirm contender ratios populate, THEN commit/push.
+After that: build the Strategy B chart (payroll_ratio on y, no cap/floor lines — they don't exist in ratio space).
