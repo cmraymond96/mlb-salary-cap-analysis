@@ -19,6 +19,14 @@ BUG: contender rows show NaN — 'league-total-payroll' wasn't included in the c
 After that: build the Strategy B chart (payroll_ratio on y, no cap/floor lines — they don't exist in ratio space).
 
 
-CASE STUDY AS A WHOLE:
+CASE STUDY AS A WHOLE (07/09/2026):
 1. In S2, we graph the teams over the proposed cap and under the floor but there is no takeaways/summary of why it matters and the findings.
 2. Review S3s original arrays for "Champion" and "Contender," they might be outdated. 
+
+
+What we found tonight (7/10):
+
+The source discrepancy that's been nagging the project was a measurement mismatch, not a data quality issue. Spotrac publishes two different payrolls: cash/active-roster (what Section 2 originally used) and CBT tax payroll (AAV-based). BaseballCube's figures match Spotrac's tax payroll within ~1–2% despite its footnote claiming Opening Day base salaries — the LAD/Ohtani case proves it empirically (cash payroll can't be within $5M of the AAV figure given the deferrals).
+The proposed 2027 cap/floor are CBT-framework numbers ($245.3M cap ≈ current $244M CBT threshold; Sawchik article defines max contracts as % of cap in AAV terms). Section 2 was therefore comparing cash payrolls against AAV thresholds — apples to oranges. That's the bug.
+Recomputing Section 2 against Cube/CBT-consistent numbers moves the headline: roughly 12 teams under the floor / 9 over the cap, with near-balanced dollar totals — not 15/6 at 3:1. BAL, SEA, KC exit floor territory; BOS, SD, CHC, ATL enter cap territory (ATL by ~$1M).
+The thesis survives but sharpens: the asymmetry lives in concentration and relative burden, not raw totals. LAD + NYM alone carry over half the cap-side dollars; Miami's floor gap exceeds its entire current payroll. Also notable: nine teams are already over the 2026 CBT threshold, so the proposed cap hardens an existing line rather than drawing a new one.
