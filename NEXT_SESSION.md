@@ -30,3 +30,5 @@ The source discrepancy that's been nagging the project was a measurement mismatc
 The proposed 2027 cap/floor are CBT-framework numbers ($245.3M cap ≈ current $244M CBT threshold; Sawchik article defines max contracts as % of cap in AAV terms). Section 2 was therefore comparing cash payrolls against AAV thresholds — apples to oranges. That's the bug.
 Recomputing Section 2 against Cube/CBT-consistent numbers moves the headline: roughly 12 teams under the floor / 9 over the cap, with near-balanced dollar totals — not 15/6 at 3:1. BAL, SEA, KC exit floor territory; BOS, SD, CHC, ATL enter cap territory (ATL by ~$1M).
 The thesis survives but sharpens: the asymmetry lives in concentration and relative burden, not raw totals. LAD + NYM alone carry over half the cap-side dollars; Miami's floor gap exceeds its entire current payroll. Also notable: nine teams are already over the 2026 CBT threshold, so the proposed cap hardens an existing line rather than drawing a new one.
+
+Sessions 7/13 and 7/14: Worked through revising Section 3's findings and Section 1's data source note. 
