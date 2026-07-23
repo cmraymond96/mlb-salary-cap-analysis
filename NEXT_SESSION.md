@@ -32,3 +32,34 @@ Recomputing Section 2 against Cube/CBT-consistent numbers moves the headline: ro
 The thesis survives but sharpens: the asymmetry lives in concentration and relative burden, not raw totals. LAD + NYM alone carry over half the cap-side dollars; Miami's floor gap exceeds its entire current payroll. Also notable: nine teams are already over the 2026 CBT threshold, so the proposed cap hardens an existing line rather than drawing a new one.
 
 Sessions 7/13 and 7/14: Worked through revising Section 3's findings and Section 1's data source note. 
+
+
+CS3 COMPLETE (pushed 7/18, commit d23a6b1).
+Next up, pick one:
+1. Resume/TeamworkOnline update — surface BIS Scoring Analyst work
+2. Flask portfolio migration (skeleton exists)
+3. First article (case study / case study / article rhythm)
+
+CS3 — COMPLETE (pushed 7/18, commit d23a6b1)
+All four sections done. Data source rewrite fixed the causal logic
+(Cube chosen for CBT/AAV consistency, not because Spotrac scraping failed).
+Section 4 closing thesis: cap burden concentrated and transactional;
+floor burden broad and structural.
+
+Three case studies now banked: payroll efficiency, surplus value, salary cap.
+
+NEXT UP (7/22 session):
+- Resume: cut DMM bullet 4, compressed PPC, added CS3, renamed
+  projects section to "Analytics Projects." One page confirmed.
+- Thursday: vocabulary pass — ETL/ELT, data warehouse, dimensional
+  modeling language into MIDFLORIDA bullets. Split into two variants
+  (Commanders = engineering-forward, Predators = keep marketing/CRM).
+- Sunday: apply to Commanders + Predators.
+- Open question before applying: am I actually willing to move to
+  DC or Nashville? Answer this first.
+
+FROM THE JOB POSTINGS (7/22):
+- Dimensional modeling (star schemas, facts/dims, SCDs) is the recurring
+  gap. Covered in the Reis book. May outrank Flask on the critical path.
+- Neither posting asks for ML. Reconsider the Months 4-12 weighting.
+- Power BI listed as a plus → supports PL-300 over Databricks.
